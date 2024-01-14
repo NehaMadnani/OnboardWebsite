@@ -4,7 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume Tailor </title>
+    <title>Flame - Tailor your onboarding experience </title>
+
+    <meta name="description" content="Optimize the onboarding experience for engineers with Flame - Your Onboarding Assistant. Streamline the onboarding journey, save mentor hours, and empower managers with insight. Join the waitlist now!">
+    <meta name="keywords" content="onboarding, engineering onboarding, technical onboarding, onboarding experience, Flame, Your Onboarding Assistant">
+    <meta name="author" content="Neha Suresh">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="Your Website URL">
+    <meta property="og:title" content="Onboarding Tailored to your needs">
+    <meta property="og:description" content="Optimize the onboarding experience for engineers with Flame - Your Onboarding Assistant. Streamline the onboarding journey, save mentor hours, and empower managers with insight. Join the waitlist now!">
+    <meta property="og:image" content="URL to an image representing your website">
+
+
+
     <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
     <script src="https://getlaunchlist.com/js/widget-diy.js" defer></script>
     <style>
@@ -199,13 +212,13 @@
     <!-- <h1 class="heading">Simplify the onboarding process <br/> for your new engineering hires!</h1> -->
 
     <header>
-        <div>Onboard Buddy</div>
+        <div>Flame - Your Onboarding Assistant</div>
     </header>
 
     <br/>
 
     <section class="section-1">
-        <div class="heading">Optimise your Onboarding Experience</div>
+        <div class="heading">Optimise the Onboarding Experience for Engineers</div>
         <div class="content">
             The engineering onboarding process often proves time-consuming, lacking clarity, 
             and heavily reliant on mentor-mentee dynamics.
@@ -318,35 +331,15 @@
         }
     </script>
 
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FFX2S4LYL2"></script>
 <script>
-    // JavaScript for scrolling effect
-    const scrollingContent = document.getElementById('scrollingContent');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    function scrollContent() {
-        const contentHeight = scrollingContent.scrollHeight;
-        const scrollHeight = scrollingContent.clientHeight;
-
-        if (contentHeight > scrollHeight) {
-            // Add content for vertical scrolling
-            const additionalContent = document.createElement('p');
-            additionalContent.textContent = "Add more content here for vertical scrolling";
-            scrollingContent.appendChild(additionalContent);
-
-            // Start scrolling animation
-            const scrollInterval = setInterval(() => {
-                scrollingContent.scrollTop += 1;
-
-                if (scrollingContent.scrollTop >= (contentHeight - scrollHeight)) {
-                    clearInterval(scrollInterval);
-                    scrollingContent.scrollTop = 0;
-                    setTimeout(scrollContent, 2000); // Restart after a delay
-                }
-            }, 20);
-        }
-    }
-
-    // Initial call to start scrolling
-    scrollContent();
+  gtag('config', 'G-FFX2S4LYL2');
 </script>
 
 </body>
