@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flame - Tailor your onboarding experience </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
     <meta name="description" content="Optimize the onboarding experience for engineers with Flame - Your Onboarding Assistant. Streamline the onboarding journey, save mentor hours, and empower managers with insight. Join the waitlist now!">
     <meta name="keywords" content="onboarding, engineering onboarding, technical onboarding, onboarding experience, Flame, Your Onboarding Assistant">
@@ -39,6 +40,7 @@
         backdrop-filter: blur(2px);
         font-size: 16px;
         line-height: 1.5;
+        overflow-x: hidden;
     }
 
     header {
@@ -204,6 +206,10 @@
             font-weight: 400;
 
         }
+        .built-by {
+            padding: 30px;
+        }
+
         @media only screen and (max-width: 850px) {
             .parent {
                 flex-direction: column;
@@ -284,7 +290,7 @@
     
 </div>
 
-    <div style="color:white; margin-bottom: 40px;">Built by folks from Apple, Carnegie Mellon University, UC Berkeley </div>
+    <div class="built-by" style="color:white; margin-bottom: 40px;">Built by folks from Apple, Carnegie Mellon University, UC Berkeley </div>
 
     <script>
         
