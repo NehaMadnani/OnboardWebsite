@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin/          # Disallow crawling of admin pages
+Disallow: /private/        # Disallow crawling of private pages
+Disallow: /temp/          # Disallow crawling of temporary pages
+Disallow: /cgi-bin/       # Disallow crawling of CGI scripts
+Allow: /                  # Allow crawling of the root directory
+Allow: /public/          # Allow crawling of public pages
+Sitemap: https://www.withflame.com/sitemap.xml  
